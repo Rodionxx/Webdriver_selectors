@@ -20,7 +20,7 @@ public class SmokeTest {
         driver.get(url);
     }
 
- /*   @Test
+    @Test
     public void questionsButtonLink() {
         page.goNav(page.questionsButton);
         Assert.assertEquals(url + "questions", driver.getCurrentUrl());
@@ -48,7 +48,7 @@ public class SmokeTest {
     @Test
     public void moreButtonText() {
         Assert.assertEquals("Take the 2-minute tour", page.moreButton.getText());
-    }*/
+    }
 
     @Test
     public void blurbText() {
